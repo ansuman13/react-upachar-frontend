@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SignedInLinks() {
     return (
         <>
-            <li className="nav-item"><button className="btn white z-depth-0">Home</button> </li>
-            <li className="nav-item"><button className="btn white z-depth-0">Login</button> </li>
+            <Link to='/' className="nav-item">Home</Link>
+            <Link to='/login' className="nav-item">Login</Link>
         </>
     )
 }

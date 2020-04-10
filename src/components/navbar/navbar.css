@@ -8,6 +8,10 @@ ul li button{
   margin: 0 10px 0 10px;
 }
 
+.navSectionRight.right a{
+  color:black
+}
+
 ul li button:hover{
   border: 1px solid black;
 }
